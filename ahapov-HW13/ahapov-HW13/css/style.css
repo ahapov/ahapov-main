@@ -1,0 +1,67 @@
+body {
+    background-color: #6667AB;
+}
+
+.text {
+    padding: 10px;
+}
+
+.header {
+    margin: 0 750px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #333;
+    width: 950px;
+    margin: 0 -300px;
+    color: #333;
+    overflow: visible;
+    height: 5px;
+}
+
+hr::after {
+    content: '';
+    overflow: visible;
+    border-top: 10px solid rgb(0, 0, 0);
+    padding: 0 44px;
+    width: 60px;
+}
+
+/*
+.line {
+    display: block;
+    margin: 0 -300px;
+    width: 950px;
+    background-color: black;
+    height: 1px;
+}
+*/
+.maincast {
+    margin: 0 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.reviews {
+    margin: 0 900px;
+}
+
+
+.reviews a {
+    visibility: hidden;
+}
+
+.reviews a::after {
+    text-decoration: none;
+    content: 'Submit';
+    font-size: 24px;
+    visibility: visible;
+    cursor: crosshair;
+    color: rgb(57, 209, 27);
+}

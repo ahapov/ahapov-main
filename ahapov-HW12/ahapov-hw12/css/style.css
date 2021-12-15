@@ -1,0 +1,52 @@
+section {
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+list {
+    display: flex;
+}
+
+list:hover {
+    background-color: mediumseagreen;
+}
+
+ul {
+    font-size: 24px;
+    list-style-image: url(../img/skits.jpg);
+}
+
+ul li:first-child {
+    font-size: 35px;
+    list-style: none;
+    color: coral;
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin-top: 45px;
+}
+
+.contact a {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkslateblue;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.contact a:hover {
+    cursor: crosshair;
+    text-decoration: underline;
+    color: rgb(159, 221, 14);
+}
+
+.contact a:first-child {
+    margin-left: 25px;
+}
